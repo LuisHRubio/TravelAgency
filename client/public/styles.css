@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.fontPage{
+    font-family: 'Acme', sans-serif;
+}
+
+.fondo{
+    background-color: #d5ebff;
+    color:#00215E;
+}
+.header{
+    background-color: #3DA2E0;
+    height: 200px;
+}
+.headerimg{
+    height: 180px;
+}
+.carouselImg{
+    border-radius: 20px;
+    height: 800px;
+    width: 1215px;
+    min-width: 1215px;
+}
+.carouselFont{
+    font-size: 80px;
+    color: #00215e;
+}
+.descCarouselFont{
+    font-size: 30px;
+    color: #ffffff;
+    opacity: 1;
+    opacity: 0.7;
+    background-color: #00215e;
+    border-radius: 20px;
+
+}
+.imgCanelita{
+    height: auto;
+    width: 100%;
+}
+.searchBar{
+    border-radius: 20px;
+    background-color: #b2d9ff;
+    color: #3DA2E0;
+    border: 5px solid #3DA2E0;
+    height: 60px;
+    weight:100px;
+    font-size: 30px;
+    width: 200%;
+}
+.searchPlace{/*barra de busqueda y boton*/
+
+}
+
+.microAjusteBarra{
+    position: relative;
+    left: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.BarraBajar{
+    position: relative;
+    top:100px;
+    left: 40px;
+}
+
+.margAuto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.temperatura{
+    position: absolute;
+    top: 0px;
+    font-size: 20px;
+}
+
+.boton{
+    position: relative;
+    border-radius: 20px;
+    background-color: #d5ebff;
+    color: #00215e;
+    border: 5px solid #3DA2E0;
+    height: 60px;
+    weight:200px;
+    font-size: 30px;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    left:340px
+}
+
+.footerText{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+.bgCard{
+    background-color: #3DA2E0;
+    padding-top: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin: auto;
+
+}
+.imgCard{
+    border-radius: 15px;
+}
+
+.cardTitle{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.cardDesc{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #d3ecff;
+}
+
+.noDeco{
+    text-decoration: none;
+}
+
+.NavBar{
+    padding: 10px;
+    background-color: white;
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.HGAA{
+    font-size: x-large;
+    margin: 10px;
+    color: black;
+}
+.RegisterButt{
+    background-color: white;
+    border: white;
+    font-size: x-large;
+}
+.LogInButt{
+    background-color: white;
+    border-color: #3DA2E0;
+    border-radius: 6px;
+    transition-duration: 0.1s;
+    font-size: x-large;
+}
+.LogInButt:hover {
+    background-color: #3DA2E0;
+    color: white;
+}
+.globo{
+    position: absolute;
+    top:-40px;
+    width: 25%;
+    height: 60%;
+}
+
+.globoTexto{
+    position: absolute;
+    top:25px;
+    font-size: 30px;
+    width: 25%;
+    height: 60%;
+}
+.adjustCard{
+    position: relative;
+    left: 100px;
+}
+.tarjeta{
+    border-radius: 20px;
+}
+.ciudad{
+    font-size: 22px;
+    font-weight: bold;
+}
+.imagenesCiudades{
+    width: 130px;
+    height: 170px;
+    border-radius: 20px;
+}
+.overflowHidden{
+    overflow: hidden;
+}
+
+.aboutUsImg{
+    border-radius: 50%;
+}
+.bgAboutUs{
+    background-color: #3DA2E0;
+    border-radius: 20px;
+}
+.aboUsNames{
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+}
+.aboutUsInfo{
+    font-size: 20px;
+    color: #b4d6ff;
+}
+.aboutUsCWImg{
+    border-radius: 50%;
+    height: 40%;
+    weight:40%;
+
+}
+
+.aboUsCWNames{
+    font-weight: bolder;
+    color: #00215e;
+    font-size: 30px;
+}
+
+.galleryIms{
+    border-radius: 15%;
+
+    max-height: 300px;
+}
+.galleryImsText{
+    color: #00215e;
+    font-size: 50px;
+
+}
+.gallerybg{
+    background-color: dodgerblue;
+}
+.aboutUs{
+    position: relative;
+    padding-top: 40px;
+}
+
+.bgSing{
+    background-color: #3DA2E0;
+    height: 799px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.imgSingn{
+    height: 74%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.singUpIn{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+.signInUpBar{
+    border-radius: 20px;
+    background-color: #b2d9ff;
+    color: #3DA2E0;
+    border: 5px solid #3DA2E0;
+    font-size: 30px;
+
+
+}
+.signInUpText{
+    font-size: 30px;
+    font-weight: bold;
+    color: #e9f3ff;
+}
+.botonArticulo{
+    border-radius: 20px;
+    background-color: #d5ebff;
+    color: #00215e;
+    border: 5px solid #007ac2;
+    height: 60px;
+    weight:200px;
+    font-size: 30px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
